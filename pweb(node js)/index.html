@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <div class="hero">
+    <div>
+        <nav>
+        <ul>
+         
+            
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="#T">TECHNOLOGY</a></li>
+            <li><a href="#R">RESUME</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+        </nav> 
+    </div> 
+    <div class="detel">
+       <div id="B">
+         <h1>Hi I'm <span>Sumayya</span></h1>
+         <div class="A">
+            <p>
+               My full name is Sumayya VN. I'm currently pursuing my masters in Software Development Application in Cusat,
+               which is a top 10 university of India. 
+               <span id="moreText" style="display: none;">
+                 I have completed a bachelor of Computer Application at MES College Marampally. My native place is Aluva, which is advanced and famous for its natural beauty. Web designing is one of my hobbies, and I really like to design websites. Painting is also one of my hobbies, and I would like to paint the beauty of nature. My short-term goal is to get a job in a reputed company, and my long-term goal is to get a senior position in that same company.
+               </span>
+               <a id="toggleButton" onclick="toggleText()">....Know More.....</a>
+             </p>
+             <a  id="id" href="https://www.canva.com/design/DAGPPTDlv_c/GSXhDZEIdl5ppXSio1wIPw/view?utm_content=DAGPPTDlv_c&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank" class="hover-link">RESUME </a>
+         </div>
+         <div class="images">
+           <img src="img/me.jpg" alt="">
+         </div> 
+       </div>
+    </div>
+   
+
+    <section id="T">
+        <div class="technologies-container">
+            <h1><span>TECHNOLOGIES</span></h1>
+            <ul class="technologies-list">
+                <li><img src="./img/css.png" alt="CSS"></li>
+                <li><img src="./img/html.png" alt="HTML"></li>
+                <li><img src="./img/java.png" alt="Java"></li>
+                <li><img src="./img/php.png" alt="PHP"></li>
+                <li><img src="./img/js.png" alt="JavaScript"></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="R">
+      <div id="cv">
+          <h1>Here is my <span>Resume</span></h1> 
+          <div class="cv-container">
+              <img src="img/ss.png" alt="Resume Image">
+          </div>
+      </div>
+   </section>
+
+   
+    <section id="contact">
+      <div id="C">
+          <div id="F">
+              <div class="text-container">
+                  <h2>NEED ANY <span>HELP</span></h2>
+              </div>
+              <div class="contact-form-container">
+                  <h1>Contact Us</h1>
+                  <form id="contactForm" onsubmit="return validateForm()" action="" method="post">
+                      <label for="name">Name:</label>
+                      <input type="text" id="namee" name="namee" ><br>
+  
+                      <label for="email">Email:</label>
+                      <input type="email" id="email" name="email"><br>
+  
+                      <label for="message">Message:</label>
+                      <textarea id="message" name="message" rows="4"></textarea><br>
+  
+                      <button type="submit">Send Message</button>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </section> 
+  
+
+   </div>
+   <script src="js/script.js"></script>
+</body>
+</html>
